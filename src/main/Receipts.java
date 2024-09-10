@@ -4,6 +4,7 @@ package main;
 import java.util.ArrayList;
 
 class Receipts {
+    
     private ArrayList<Receipt> receipts;
 
     public Receipts() {

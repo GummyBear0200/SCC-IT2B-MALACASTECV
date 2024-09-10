@@ -15,8 +15,9 @@ public class Main {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = input.nextInt();
-            input.nextLine(); // Consume the newline character
+            input.nextLine(); 
 
+            
             if (choice == 1) {
                 System.out.println("----- Receipt -----");
                 Reciept rc = new Reciept();
@@ -30,7 +31,7 @@ public class Main {
                 Account accountManager = new Account();
                 accountManager.addAccounts(input);
             } else if (choice == 4) {
-                running = false; // Exit the loop
+                running = false;
             } else {
                 System.out.println("Invalid option. Please try again.");
             }
